@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\forbox\apple.jpg" />
+    <None Remove="images\forbox\basket.jpg" />
+    <None Remove="images\forbox\blackberry.jpeg" />
+    <None Remove="images\forbox\corn.jpg" />
+    <None Remove="images\forbox\cucumber.jpg" />
+    <None Remove="images\forbox\new.png" />
+    <None Remove="images\forbox\pear.jpg" />
+    <None Remove="images\forbox\pinapple.jpg" />
+    <None Remove="images\forbox\plus.png" />
+    <None Remove="images\forbox\pomegranade.jpg" />
+    <None Remove="images\forbox\tomato.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\forbox\apple.jpg" />
+    <Resource Include="images\forbox\basket.jpg" />
+    <Resource Include="images\forbox\blackberry.jpeg" />
+    <Resource Include="images\forbox\corn.jpg" />
+    <Resource Include="images\forbox\cucumber.jpg" />
+    <Resource Include="images\forbox\new.png" />
+    <Resource Include="images\forbox\pear.jpg" />
+    <Resource Include="images\forbox\pinapple.jpg" />
+    <Resource Include="images\forbox\plus.png" />
+    <Resource Include="images\forbox\pomegranade.jpg" />
+    <Resource Include="images\forbox\tomato.jpg" />
+  </ItemGroup>
+
+</Project>
